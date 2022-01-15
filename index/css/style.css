@@ -1,0 +1,361 @@
+body{
+    background-color: rgb(16, 41, 94);
+    color: black;
+
+    width:1200px;
+    margin: auto;
+    
+}
+
+
+.box1{
+    background-image: url('../image/p1pic6.jpg');
+
+    width: 1200px;
+    height:150px;
+
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+
+    border-left:10px lightskyblue;
+    border-right:10px lightskyblue;
+    border-top:15px lightskyblue;
+    border-style: groove;
+}
+
+.box2{
+    float: left; 
+
+    width: 40%;
+    height: 200px;
+
+    border:2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+    text-align: center;
+    color:mintcream;
+    font-size: larger;
+    
+
+    background-image: url("../image/p1pic1.jpg");
+    background-size: 100% 120%;
+}
+
+.box3{
+    float:right;
+    width: 40%;
+    height:200px;
+
+    border:2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+    text-align: center;
+    color:mintcream;
+    font-size: larger;
+
+    background-image: url("../image/p1pic5.jpg");
+    background-size: 100% 120%;
+}
+
+.box4{
+    float: left; 
+    width: 40%;
+    height: 200px;
+
+    border:2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+    text-align: center;
+    color:mintcream;
+    font-size: larger;
+
+    background-image: url("../image/p1pic4.jpg");
+}
+
+.box5{
+    float:right;
+    width: 40%;
+    height:200px;
+
+    border:2px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 40px;
+
+    text-align: center;
+    color:mintcream;
+    font-size: larger;
+
+    background-image: url("../image/p1pic2.jpg");
+}
+
+.box6{
+    margin-left: 40%;
+    margin-top: 200px;
+    width: 20%;
+    height:200px;
+
+    border:4px solid #ccc;
+    box-sizing: border-box;
+
+    background-image: url("../image/p1pic3.jpg");
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ 
+ a:hover {
+     color: tomato;
+ }
+ 
+ a:visted {
+     color:yellowgreen;
+ }
+
+ .page1b1{
+    background-image: url('../image/p2pic1.jpg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height:150px;
+
+    color:ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 50px;
+    font-size: larger;
+
+    border-left:8px lightskyblue;
+    border-right:8px lightskyblue;
+    border-top:10px lightskyblue;
+    border-style: solid;
+ }
+
+ .page1b2{
+     background-color: steelblue;
+
+     word-spacing: 100px;
+     text-align: center;
+     font-size: larger;
+
+     height:50px;
+ }
+
+ .page1b3{
+     background-color: teal;
+
+     height:50px;
+     text-align: center;
+     font-size: larger;
+
+     word-spacing: 150px;
+ }
+
+ .page1b4{
+     background-color: turquoise;
+
+     height:50px;
+
+     word-spacing: 200px;
+     text-align: center;
+     font-size: larger;
+ }
+
+ .page1b5{
+     background-color:skyblue ;
+
+     height:50px;
+
+     word-spacing: 80px;
+     text-align: center;
+     font-size: larger;
+ }
+
+ .page1b6{
+     background-color: powderblue ;
+
+     height:50px;
+
+     word-spacing: 150px;
+     text-align: center;
+     font-size: larger;
+ }
+
+ .page1b7{
+     background-color: lavender;
+
+     height:50px;
+
+     word-spacing:200px ;
+     text-align: center;
+     font-size: larger;
+ }
+
+ .page1block{
+     height:40px;
+     width:50%;
+     border-right: 2px solid #ccc;
+     box-sizing: border-box;
+    
+     text-align: right;
+     font-family: monospace;
+     color:linen;
+     font-size: large;
+ }
+
+
+ #main-block{
+     float:left;
+     width:30%;
+     height: 680px;
+
+     background-image: url("../image/p2pic2.jpg");
+     background-repeat: no-repeat;
+
+     border-right:10px rgb(16, 41, 94);
+     border-style: groove;
+     box-sizing: border-box;
+
+     margin-top: 20px;
+    
+ }
+
+ #sidebar{
+     float:right;
+     width:70%;
+
+     margin-top: 0px;
+ }
+
+
+ .page2b1{
+    background-image: url('../image/p3pic1.jpg');
+    background-size: 100% 250%;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height:150px;
+
+    color:ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    letter-spacing: 50px;
+    font-size: large;
+
+    border-left:8px lightskyblue;
+    border-right:8px lightskyblue;
+    border-top:10px lightskyblue;
+    border-style: double;
+ }
+
+ table{
+     background-image: url("../image/p3pic2.jpg");
+     background-size: 100% 200%;
+
+
+     color:lightgoldenrodyellow;
+     font-size: medium;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .page3b1{
+    background-image: url('../image/p4pic1.jpg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height:150px;
+
+    color:ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 50px;
+    font-size: large;
+
+    border-left:8px lightskyblue;
+    border-right:8px lightskyblue;
+    border-top:10px lightskyblue;
+    border-style: dashed;
+ }
+
+ .page3b2{
+     background-color: skyblue;
+
+     float: left;
+     width:60%;
+
+     border:5px solid rgb(31, 119, 235);
+    box-sizing: border-box;
+ }
+
+ .page3b3{
+     float:right;
+     width:30%;
+     height: 250px;
+
+     margin-top:50px ;
+
+     background-image: url(../image/p4pic2.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     border-radius: 40px;
+
+     border:2px solid #ccc;
+     box-sizing: border-box;
+    
+ }
+
+ .page4b1{
+    background-image: url('../image/p5pic1.jpg');
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+
+    width: 1200px;
+    height:150px;
+
+    color:ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    letter-spacing: 50px;
+    font-size: large;
+
+    border-left:8px lightskyblue;
+    border-right:8px lightskyblue;
+    border-top:10px lightskyblue;
+    border-style: dotted;
+ }
+
+ .page4b2{
+    background-color: rgb(58, 231, 231);
+ }
+
+ .page4b3{
+    background-color: rgb(10, 183, 252);
+
+    text-align: center;
+
+    border-left:8px rgb(167, 55, 27);
+    border-right:8px rgb(167, 55, 27);
+    border-bottom:10px rgb(167, 55, 27);
+    border-style: dotted;
+ }
+
+button{
+    color: seagreen;
+    padding: 10px 15px;
+}
+
+button:hover{
+    background-color: tomato;
+}
+
+button:active{
+    background-color: white;
+}
